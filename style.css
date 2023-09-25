@@ -1,0 +1,470 @@
+* {box-sizing: border-box; }
+
+/*-------------------------------------------------
+-------------HOMEPAGE (index.html)-----------------
+-------------------------------------------------*/
+
+body {
+    margin: auto 0;
+    box-sizing: border-box;
+}
+
+.head {
+    position:fixed;
+    width: 100%;
+    height: 130px;
+    z-index: 0;
+}
+
+.head li a{
+    margin: 3%;
+}
+
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 21%;
+    z-index: 20;
+}
+
+.logo {
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    z-index: 0;
+}
+
+.logo:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+.links li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding-right: 5px; padding-left: 5px;
+    margin-top: 0;
+}
+
+.links li a button{
+    margin: auto 0%;
+    z-index: 20;
+    padding: 15px;
+    border: none; 
+    outline: none; 
+    background-color: #E8E8E8; 
+    color: #404040; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    justify-content: space-between;
+}
+
+.links li a button:hover {
+    background-color: #8080c5;
+    color:#FFFFFF;
+    transform: scale(1.1,1.1);
+}
+
+.first {
+    background-image: url("images/soup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    background-color: #696969;
+    background-blend-mode: multiply;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+   
+}
+
+.first p{
+    font-size: 30px;
+}
+
+.first h2, p{
+    transition: all 0.3s ease 0s;
+}
+
+.first h2:hover {
+    transform: scale(1.1,1.1);
+}
+
+.first p:hover {
+    color: #8080c5;
+    transform: scale(1.1,1.1);
+}
+
+.second {
+    padding-bottom: 50px;
+}
+
+
+.second p{
+    font-size:18px;
+    color: #FFFFFF;
+    transition: all 0.7s ease 0s;
+}
+
+.mission{
+    transition: all 0.7s ease 0s;
+}
+
+.mission:hover {
+    
+    transform: scale(1.1,1.1);
+}
+
+.info{
+
+    transition: all 0.7s ease 0s;
+}
+
+.info:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+.floater{
+    text-decoration: none;
+    display: inline-block;
+    z-index: 99;
+    width: 20%;
+    max-width: 140px;
+    padding: 10px;
+    border: none; 
+    outline: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    cursor: pointer; 
+    border-radius: 15px; 
+    font-size: 20px;
+    background-color:#fff;
+    color:#404040;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 5px;
+}
+
+.floater:hover {
+    transform: scale(1.05,1.05);
+    background-color: #8080c5;
+    color:#ffe4e1;
+}
+
+.floater a{
+    text-decoration: none;
+    display: inline-block;
+    z-index: 99;
+    color:#8080c5;
+    padding: 2px;
+    transition: none;
+    font-weight:300;
+}
+
+.floater a:hover{
+    color:#ffe4e1;
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+/*-------------------------------------------------
+-----------CONTACT PAGE (ContactUS.html)-----------
+-------------------------------------------------*/
+
+.contact {
+    background-image: url("images/farm.jpg");
+    background-color: #808080;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    
+}
+
+.contact h2 {
+    padding-top: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+.contact h2:hover {
+    transform: scale(1.1,1.1);
+    color:#ffe4e1;
+}
+
+form{
+    position: center;
+}
+
+form .inputs{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.inputs {
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+input, textarea {
+    width:100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background:transparent;
+    font-size: 15px;
+    transition: transform 0.4s ease;
+}
+
+
+
+#submission:hover {
+    background-color: #8080c5;
+    color:#FFFFFF;
+}
+
+#submission {
+    border: none; 
+    outline: none; 
+    background-color: #F0F0F0; 
+    color: #555; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    transition: all 0.2s ease 0s;
+    width: 90%;
+    max-width: 600px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: text;
+    color: #ffffff;
+    padding: 15px;
+    transition: all 0.3s ease 0.1s;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -20%;
+    font-size: 0px;
+}
+
+textarea:focus~label,
+textarea:valid~label {
+    top: -5%;
+    font-size: 0px;
+}
+
+
+/*-------------------------------------------------
+--------Volunteer PAGE (GetInvolved.html)----------
+-------------------------------------------------*/
+
+#banner {
+    background-image: url("images/volunteer.jpg");
+    background-color: #808080;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 240px;
+    padding-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h2{
+    z-index: 50;
+    transition: ease-in 0.4s;
+}
+
+#banner h2:hover {
+    color: #DAA06D;
+    transform: scale(1.1,1.1);
+    z-index: 51;
+}
+
+
+
+.info2 {
+    width: 100%;
+    max-width: 850px;
+    padding-bottom: 40px; padding-right: 5px;
+    margin:auto;
+    font-size: 20px;
+}
+
+.info2 p{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.info2 ul{
+    text-align: center;
+    list-style-position: inside;
+    transition: all 0.3s ease-out;
+    padding-right: 15px;
+}
+
+.info2 ul:hover{
+    transform: scale(1.05,1.05);
+}
+
+
+
+.popup {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.button2 {
+    text-align: center;
+    margin: 0 auto;
+}
+  
+.button2 button{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 17px;
+    border-radius: 10px;
+    border: none; 
+    outline: none; 
+    background-color: #fff; 
+    color: #404040; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    font-size: 18px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.button2 button:hover {
+    background-color: #8080c5;
+    color: #fff;
+    transform: scale(1.1,1.1);
+}
+  
+.overlay {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(104, 62, 211, 0.586);
+    transition: opacity 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    
+    visibility: visible;
+    opacity: 1;
+}
+  
+.menu {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 27px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    width: 95%;
+    position: relative;
+    transition: all 0.7s ease-in-out;
+}
+  
+.menu p {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    color: #404040;
+}
+
+.menu .exit {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    transition: all 0.2s;
+    font-size: 20px;
+    text-decoration: none;
+    color: #404040;
+}
+  
+
+.menu .exit:hover {
+    color: red;
+    transform: scale(1.1,1.1);
+}
+
+.menu #submit2 {
+    text-align: center;
+    border: none; 
+    outline: none; 
+    background-color: #F0F0F0; 
+    color: #555; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    transition: all 0.2s ease 0s;
+    width: 50%;
+    max-width: 600px;
+}
+
+.menu #submit2:hover {
+    color:#FFFFFF;
+    background-color:#8080c5;
+}
+
+
+.menu .chart {
+    
+    width: 50%;
+    max-width: 600px;
+    min-width: 180px;
+}
+
+.chart {
+    color:#404040;
+    table-layout: auto;
+    width: 15%;
+    
+    margin: auto;
+}
+
+
+.times {
+    color:#404040;
+}
+
+
+  
+
