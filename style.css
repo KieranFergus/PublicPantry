@@ -465,6 +465,7 @@ textarea:valid~label {
 .times {
     color:#404040;
     padding: 10px;
+    padding-top: 15px;
 }
 
 
