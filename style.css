@@ -453,6 +453,7 @@ textarea:valid~label {
 }
 
 .chart {
+    font-size: 20px;
     color:#404040;
     table-layout: auto;
     width: 25%;
