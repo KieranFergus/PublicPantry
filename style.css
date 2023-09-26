@@ -455,7 +455,7 @@ textarea:valid~label {
 .chart {
     color:#404040;
     table-layout: auto;
-    width: 15%;
+    width: 20%;
     
     margin: auto;
 }
