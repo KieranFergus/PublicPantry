@@ -447,15 +447,15 @@ textarea:valid~label {
 
 .menu .chart {
     
-    width: 50%;
-    max-width: 600px;
+    width: 80%;
+    max-width: 800px;
     min-width: 180px;
 }
 
 .chart {
     color:#404040;
     table-layout: auto;
-    width: 20%;
+    width: 25%;
     
     margin: auto;
 }
