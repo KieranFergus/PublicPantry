@@ -319,6 +319,7 @@ textarea:valid~label {
 
 #banner h2{
     z-index: 50;
+    font-size: 40px;
     transition: ease-in 0.4s;
 }
 
