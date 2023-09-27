@@ -240,6 +240,7 @@ form .inputs{
 .inputs {
     margin-bottom: 50px;
     position: relative;
+    font-size: 30px;
 
 }
 
@@ -281,6 +282,7 @@ label {
     left: 0;
     top: 0;
     cursor: text;
+    font-size: 30px;
     color: #ffffff;
     padding: 15px;
     transition: all 0.3s ease 0.1s;
