@@ -227,6 +227,7 @@ header {
 
 form{
     position: center;
+    z-index: 90;
 }
 
 form .inputs{
@@ -235,6 +236,7 @@ form .inputs{
     margin: 0 auto;
     padding-bottom: 30px;
     justify-content: space-evenly;
+    z-index: 90;
 }
 
 .inputs {
