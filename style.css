@@ -212,7 +212,7 @@ header {
     color: #ffffff;
     padding-top: 120px;
     padding-bottom: 200px;
-    
+    z-index: 99;
 }
 
 .contact h2 {
