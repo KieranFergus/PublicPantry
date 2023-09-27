@@ -182,7 +182,7 @@ header {
     display: inline-block;
     z-index: 99;
     width: 16%;
-    max-width: 150px;
+    max-width: 130px;
     padding: 5px;
     border: none; 
     outline: none;
@@ -238,7 +238,7 @@ form .inputs{
 }
 
 .inputs {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     position: relative;
 
 }
@@ -250,7 +250,7 @@ input, textarea {
     border: 2px solid #ffffff;
     color: #ffffff;
     background:transparent;
-    font-size: 18px;
+    font-size: 30px;
     transition: transform 0.4s ease;
 }
 
